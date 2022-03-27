@@ -5,9 +5,8 @@
 
 
 * {
-  margin: 0;
+  margin: 0px;
   color: white;
-  font-size: x-large;
   font-family:Formula1;
   font-stretch: extra-expanded;
 }
@@ -55,29 +54,75 @@
     
   text-shadow: 0 0 20px black, 0 0 10px #d00000;
   margin: 20px;
-  font-size: 3.5rem;
+  font-size: 400%;
   text-decoration: underline solid;
 }
 
 #subscribe-button{
     background-color: rgb(65, 65, 65);
-    font-size: 1.3rem;
+    font-size: 150%;
     width: 15vw;
     height: 8vh;
     border-radius: 12px;
     user-select: none;
-    box-shadow: 0px 10px rgb(40, 40, 40);
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0px;
+    transition-duration: 0.3s;
 }
 
+
+#subscribe-button:hover{
+  background-color: rgb(45, 45, 45);
+  transition-duration: 0.3s;
+  transform: scale(1.03);
+
+}
+
+#subscribe-button:active{
+  transform: scale(0.95);
+  background-color: rgb(65, 65, 65);
+}
 
 #teams {
   grid-area: te;
   background-color: #d00000;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
 }
+
+#michael{
+  background-image: url(/img/Michael-Schumacher-PNG-Clipart-Background.png);
+  width: 40vw;
+  height: 80vh;
+  background-position: bottom;
+  background-size: 20vw;
+  background-repeat: no-repeat;
+}
+
+#explore-teams{
+  border: 5px solid red;
+  font-size: 2.3vw;
+  text-align: center;
+  width: 18vw;
+  height: 23vh;
+  border-radius: 12px;
+  user-select: none;
+
+}
+
+#lewis-hamilton{
+  background-image: url(/img/pngwing.com.png);
+  width: 40vw;
+  height: 80vh;
+  background-position: bottom;
+  background-size: 40vw;
+  background-repeat: no-repeat;
+}
+
 
 #history {
   grid-area: hi;
@@ -94,7 +139,7 @@
 }
 
 #buttons {
-  width: 18vw;
+  width: 20vw;
   height: 10vh;
   border-radius: 1vw;
   transition: 0.3s;
@@ -103,12 +148,16 @@
   justify-content: center;
   transition-duration: 0.3s;
   user-select: none;
+  font-size: 2.5vw;
 }
 
 #buttons:hover {
-  transition-duration: 0.3s;
+  transition-duration: 0.3s linear;
   transform: scale(1.05);
   text-decoration: underline;
 }
 
+#buttons:active{
+  transform: scale(0.95);
+}
 
