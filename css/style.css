@@ -54,13 +54,21 @@
     
   text-shadow: 0 0 20px black, 0 0 10px #d00000;
   margin: 20px;
+<<<<<<< Updated upstream
   font-size: 400%;
+=======
+  font-size: 5vw;
+>>>>>>> Stashed changes
   text-decoration: underline solid;
 }
 
 #subscribe-button{
     background-color: rgb(65, 65, 65);
+<<<<<<< Updated upstream
     font-size: 150%;
+=======
+    font-size: 1.8vw;
+>>>>>>> Stashed changes
     width: 15vw;
     height: 8vh;
     border-radius: 12px;
@@ -149,6 +157,10 @@
   transition-duration: 0.3s;
   user-select: none;
   font-size: 2.5vw;
+<<<<<<< Updated upstream
+=======
+  background-color: green;
+>>>>>>> Stashed changes
 }
 
 #buttons:hover {
