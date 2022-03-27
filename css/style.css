@@ -19,7 +19,7 @@
 #main-page {
   width: 100%;
   display: grid;
-  grid-template-rows: 15vh 70vh 70vh 70vh 70vh;
+  grid-template-rows:10vh 80vh 80vh 80vh 80vh;
   grid-template-areas:
     "na"
     "ho"
@@ -31,7 +31,7 @@
 #navigation {
   grid-area: na;
   width: 100%;
-  height: 15vh;
+  height: 10vh;
   background-color: #d00000;
   position: fixed;
   top: 0px;
@@ -53,12 +53,15 @@
 
 #message-home{
     
-  text-shadow: 0 0 10px black, 0 0 10px #d00000;
+  text-shadow: 0 0 20px black, 0 0 10px #d00000;
   margin: 20px;
+  font-size: 3.5rem;
+  text-decoration: underline solid;
 }
 
 #subscribe-button{
     background-color: rgb(65, 65, 65);
+    font-size: 1.3rem;
     width: 15vw;
     height: 8vh;
     border-radius: 12px;
