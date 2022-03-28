@@ -37,6 +37,7 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  box-shadow: 1px 1px 1px 1px black;
 }
 
 #home {
