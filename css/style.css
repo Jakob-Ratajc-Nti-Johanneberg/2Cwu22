@@ -14,6 +14,7 @@
 
 
 /*white-red,red-black,black-white*/
+/*#a6051a potentiel annan röd färg*/
 
 #main-page {
   width: 100%;
@@ -37,6 +38,7 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  box-shadow: 0px 1px rgb(65, 65, 65);
 }
 
 #home {
@@ -44,7 +46,7 @@
   background-size: cover;
   background-position: bottom;
   grid-area: ho;
-  background-color: whitesmoke;
+  background-color: #f0efeb;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -169,7 +171,7 @@
 
 #news {
   grid-area: ne;
-  background-color: whitesmoke;
+  background-color: #f5f3f4;
 }
 #contact {
   background-color: rgb(65, 65, 65);
