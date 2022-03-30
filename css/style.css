@@ -80,6 +80,7 @@ html{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  scroll-margin-top: 10vh;
 }
 
 #message-home{
@@ -124,7 +125,7 @@ html{
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  
+  scroll-margin-top: 10vh;
 }
 
 #michael{
@@ -198,44 +199,111 @@ html{
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  scroll-margin-top: 10vh;
 
+}
+
+#center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  justify-content: space-between;
+  height: 80vh;
 }
 
 #breif-history{
   width: 20vw;
+  margin-top: 25vh;
+  font-size: 2.3vw;
+  text-align: center;
+  border-radius: 12px;
+  user-select: none;
+}
+
+#more-style1{
+  border-radius: 10px;
+  box-shadow: 10px -10px black;
+  width: 20vw;
+  height: 8vh;
+}
+
+#more-style2{
+  border-radius: 10px;
+  box-shadow: -10px -10px black;
+  width: 20vw;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #old-cars{
   width: 35vw;
   height: 70vh;
-  border-radius: 5vh;
-  border: 10px solid #f5f3f4;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
 
 #old-cars-img{
   background-image: url(/img/Ferrari_Formula_1_lineup_at_the_Nürburgring.jpg);
   width: 34vw;
-  height: 47.5vh;
+  height: 46.3vh;
   border-radius: 30px;
   background-size: contain;
   background-repeat: no-repeat;
-  box-shadow: 0px 1px 10px 1px white;
+  box-shadow: 0px 1px 50px 1px black;
+}
+
+#old-cars-text{
+  font-size: 2.5vw;
+  height: 10vh;
+  width: 34vw;
+  box-shadow: 10px 10px black;
+  border-radius: 10px;
+  text-shadow: -3px 3px black;
 }
 
 #racing{
   width: 35vw;
   height: 70vh;
-  border: 10px solid #f5f3f4;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#clark{
+  background-image: url(/img/jim-clark-slideways-lotus-55805c0624d4e.jpg);
+  height: 45.65vh;
+  width: 34vw;
+  border-radius: 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  box-shadow: 0px 1px 50px 1px black;
+}
+
+#clark-text{
+  font-size: 2.5vw;
+  text-shadow: 3px 3px black;
+  height: 10vh;
+  width: 34vw;
+  box-shadow: -10px 10px black;
+  border-radius: 10px;
+}
+
+#clark-text-margin{
+  margin-left: 3.4vw;
 }
 
 #news {
   grid-area: ne;
   color: rgb(25, 25, 25);
   background-color: #f5f3f4;
+  scroll-margin-top: 10vh;
 }
 
 #contact {
