@@ -347,7 +347,8 @@ html{
 #ipad-use{
   width: 35vw;
   height: fit-content;
-  margin-top: 32.3vh;
+  margin-top: auto;
+  overflow: hidden;
 }
 
 #news-text{
@@ -468,6 +469,7 @@ html{
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+  font-size: 0.8vw;
   border-radius: 10px;
   box-shadow: 5px -5px black;
 }
@@ -566,6 +568,7 @@ html{
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+  font-size: 0.9vw;
   border-radius: 10px;
   box-shadow: 5px -5px black;
 }
@@ -981,7 +984,7 @@ html{
   scroll-margin-top: 10vh;
   display: flex;
   justify-content: space-around;
-  overflow: hidden;
+  overflow:hidden;
 }
 
 #sainz-aproves{
