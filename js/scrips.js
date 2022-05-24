@@ -18,6 +18,8 @@
   var button = document.querySelector("#hamburger");
   var menu = document.querySelector("#navigation");
 
+
+
   button.addEventListener("click", () =>{
     if (menu.style.display === "none"){
       menu.style.display = "flex";
